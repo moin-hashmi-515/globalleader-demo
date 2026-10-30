@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Leader CMS — Admin (Demo)</title>
+<style>body{font-family:system-ui,Arial,sans-serif;margin:0;color:#222}header{background:#0b2a5b;color:#fff;padding:16px}.wrap{max-width:900px;margin:0 auto;padding:16px}.card{border:1px solid #ddd;border-radius:12px;padding:16px;margin:12px 0}.note{background:#fff3cd;padding:12px;border-radius:10px}</style></head>
+<body><header><div class="wrap">GLOBAL LEADER — CMS <span style="color:#ccc">(Demo)</span></div></header>
+<div class="wrap"><div class="note"><b>Demo CMS only:</b> front-end demo, data in this browser (gl_* keys). No real server, login, payment or notification. Do NOT enter real traveller data. Production needs a backend/WordPress build.</div>
+<div class="card"><h2>Trip enquiries (from the demo form)</h2><div id="enqs"></div></div>
+<div class="card"><h2>Before launch — must confirm with Global Leader Travel</h2><ul><li>Real packages: dates, prices, inclusions — none shown on their live Packages page (all "coming soon"), add only verified ones.</li><li>Do NOT use the Facebook group Baku post/price — different contacts (Muneeb Butt, .com.pk domain) vs official site, not attributed to this agency.</li><li>CEO name and licence/IATA number: none shown on their site — add only if verified.</li><li>Enquiry delivery: verify the new form actually reaches their Gulberg office team.</li></ul></div>
+<p><a href="index.html">← Back to demo site</a></p></div>
+<script>try{var a=JSON.parse(localStorage.getItem('gl_enquiries')||'[]');document.getElementById('enqs').innerHTML=a.length?a.map(function(x){return '<p><b>'+x.name+'</b> · '+x.phone+' · '+x.service+' · dates: '+x.dates+' · travellers: '+x.travellers+'</p>'}).join(''):'<p>No demo enquiries yet.</p>'}catch(e){}</script></body></html>
